@@ -22,7 +22,7 @@ class PdoHome extends PdoModel
     }
 
     public function getTest(){
-        $req = "SELECT * FROM utilisateurs";
+        $req = "SELECT * FROM test";
         $rs = PdoHome::$monPdo->query($req);
         $ligne = $rs->fetchAll();
         return $ligne;

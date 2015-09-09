@@ -8,10 +8,9 @@ $action = $_REQUEST['action'];
 switch($action){
 	case 'accueil':
 	{
-		$title = "title";
+		$title = "Accueil";
 		$metaDescription = "meta";
 		$keywords = "mots cles";
-		$user = $pdoHome->getTest();
 		include("views/web/layout.php");
 		break;
 	}

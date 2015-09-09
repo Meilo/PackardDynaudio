@@ -3,7 +3,7 @@
 class PdoModel
 {
 	protected static $serveur = 'mysql:host=localhost';
-    protected static $bdd = 'dbname=bd_project';
+    protected static $bdd = 'dbname=test';
     protected static $user = 'root';
     protected static $mdp = '';
     protected static $monPdo;
