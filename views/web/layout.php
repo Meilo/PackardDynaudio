@@ -2,14 +2,14 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="description" content="">
+	<meta name="description" content="<?php echo $metaDescription ?>">
 	<meta name="author" content="Ludovic Elice , Mehdi Stocky">
 	<meta name="copyright" content="">
 	<meta name="keywords" content="">
 	<meta name="Language" content="fr">
 	<link rel="stylesheet" type="text/css" href="views/web/css/style.css">
 	<link rel="stylesheet" type="text/css" href="views/web/css/bootstrap.min.css">
-	<title></title>
+	<title><?php echo $title ?></title>
 </head>
 <body>
 	<header>
