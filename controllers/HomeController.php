@@ -10,6 +10,8 @@ switch($action){
 	{
 		$title = "title";
 		$metaDescription = "meta";
+		$keywords = "mots cles";
+		$user = $pdoHome->getTest();
 		include("views/web/layout.php");
 		break;
 	}

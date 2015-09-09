@@ -1,4 +1,8 @@
 <!-- Contenu de Home -->
 <?php
-echo "Home";
+
+foreach ($user as $key => $value) {
+	echo $value['nom']."<br>";
+}
+
 ?>
