@@ -20,6 +20,29 @@
 	text-align: left;
 }
 
+/* -- Footer -- */
+
+.footer-principale{
+	background-color: #2d2e30;
+	margin: 0px;
+}
+.container-footer{
+	padding-top: 70px;
+	height: 450px;
+	color: #fff;
+}
+.container-footer h4{
+	padding-bottom: 15px;
+}
+.container-footer ul li a{
+	font-size: 12px;
+	line-height: 17px;
+	text-decoration: none;
+	color: #7a7a7a;
+}
+.container-footer ul li a:hover{
+	color: #fff;
+}
 /* -- Home -- */
 
 .bloc-home{
@@ -32,8 +55,30 @@
 	height: 400px;
 	width: 100%;
 }
+.container-image-street{
+	background: url('../img/stones.jpeg') no-repeat center fixed; 
+  	-webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  	background-size: cover; /* version standardisée */
+	height: 400px;
+	width: 100%;
+}
+.street-text{
+	padding-top: 155px;
+}
+.street-text h2{
+	padding-bottom:40px;
+	color: #FFF;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
+}
 .select-container{
 	padding-top: 140px;
+}
+.select-container select{
+	box-shadow: 4px 6px 10px 2px rgba(119, 119, 119, 0.75);
+	-moz-box-shadow: 4px 6px 10px 2px rgba(119, 119, 119, 0.75);
+	-webkit-box-shadow: 4px 6px 10px 2px rgba(119, 119, 119, 0.75);
 }
 .select-container label{
 	display: block;
@@ -54,26 +99,28 @@
 	height: 150px;
 }
 .container-tuto{
-	height: 200px;
+	height: 300px;
 }
 .bloc-member{
 	background-color: #F0F0F0;
 	margin: 0px;
 }
 .container-member{
-	height: 850px;
+	height: 870px;
 }
 .bloc-ad{
-	padding-top: 50px;
+	padding-top: 60px;
 }
 .bloc-ad h2{
 	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
 }
 .bloc-tuto{
 	padding-top: 50px;
 }
 .bloc-tuto h2{
 	font-size: 25px;
+	font-family: 'Open Sans', sans-serif;
 }
 .membre-filter{
 	padding-top: 25px;
@@ -97,6 +144,7 @@
 .mode-tuto h3{
 	font-size: 20px;
 	font-weight: bold;
+	font-family: 'Open Sans', sans-serif;
 }
 .isotope-item {
     z-index: 2;

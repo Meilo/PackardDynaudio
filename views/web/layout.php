@@ -25,7 +25,7 @@
 					<div class="row">
 						<div class="col-md-6 nav-classique">
 							<ul class="list-unstyled list-inline navig-1">
-								<li>Likho</li>
+								<li><b>Likho</b></li>
 								<li><a href="#">Actu BD</a></li>
 								<li><a href="#">Guide et Tutoriel</a></li>
 								<li><a href="#">Evenement</a></li>
@@ -48,6 +48,38 @@
 	</section>
 	<footer>
 		<!-- Footer ici -->
+		<div class="row footer-principale">
+			<div class="col-md-12 container-footer">
+				<div class="row">
+					<div class="col-md-3"></div>
+					<div class="col-md-2">
+						<h4><b>Likho</b></h4>
+						<ul>
+							<li><a href="#">Actu BD</a></li>
+							<li><a href="#">Guides et tutoriels</a></li>
+							<li><a href="#">Evenements</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2">
+						<h4><b>Social</b></h4>
+						<ul>
+							<li><a href="#">facebook</a></li>
+							<li><a href="#">twitter</a></li>
+							<li><a href="#">google+</a></li>
+							<li><a href="#">pinterest</a></li>
+						</ul>
+					</div>
+					<div class="col-md-2">
+						<h4><b>A propos</b></h4>
+						<ul>
+							<li><a href="#">Likho</a></li>
+							<li><a href="#">Mentions Légales</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer>
 	<script type="text/javascript" charset="utf8" src="views/web/js/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" charset="utf8" src="views/web/js/bootstrap.min.js"></script>

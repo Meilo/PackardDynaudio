@@ -22,8 +22,8 @@
 		<div class="col-md-3"></div>
 		<div class="col-md-5 bloc-ad">
 			<div class="row">
-				<div class="col-md-6">
-					<h2>Concrétisez votre <br>projet artistique avec <b>Likho</b></h2>
+				<div class="col-md-12">
+					<h2>Selectionnez vous même les acteurs de votre projet avec <b>Likho</b></h2>
 				</div>
 			</div>
 		</div>
@@ -35,10 +35,10 @@
 			<div class="col-md-3"></div>
 			<div class="col-md-5">
 				<div class="membre-filter">
-					<a href="#" data-filter="*" class="current">Tous</a>
-				  	<a href="#" data-filter=".dessinateur">Dessinateurs</a>
-				  	<a href="#" data-filter=".scenariste">Scénariste</a>
-				  	<a href="#" data-filter=".editeur">Editeur</a>
+					<a href="#" class="btn btn-default" data-filter="*" class="current">Tous</a>
+				  	<a href="#" class="btn btn-primary" data-filter=".dessinateur">Dessinateurs</a>
+				  	<a href="#" class="btn btn-danger" data-filter=".scenariste">Scénaristes</a>
+				  	<a href="#" class="btn btn-warning" data-filter=".editeur">Editeurs</a>
 				</div>
 			</div>
 		</div>
@@ -112,5 +112,15 @@
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+<div class="row bloc-home">
+	<div class="col-md-12 container-image-street">
+		<div class="row">
+			<div class="col-md-3"></div>
+			<div class="col-md-5 street-text">
+				<h2>Etendez vos recherches à travers toute la france ou proche de chez vous</h2>
+	  		</div>
+	  	</div>
 	</div>
 </div>
