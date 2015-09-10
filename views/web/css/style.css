@@ -43,6 +43,7 @@
 .container-footer ul li a:hover{
 	color: #fff;
 }
+
 /* -- Home -- */
 
 .bloc-home{
@@ -170,4 +171,16 @@
     -webkit-transition-property: -webkit-transform, opacity;
     -moz-transition-property: -moz-transform, opacity;
     transition-property: transform, opacity;
+}
+
+/* -- User -- */
+
+.bloc-user{
+	margin: 0px;
+	background-color: #F0F0F0;
+}
+
+.container-user{
+	height: 500px;
+
 }

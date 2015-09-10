@@ -33,7 +33,7 @@
 						</div>
 						<div class="col-md-6 nav-connexion">
 							<ul class="list-unstyled list-inline navig-1">
-								<li><a href="#">Se connecter</a></li>
+								<li><a href="<?php echo url('connexion') ?>">Se connecter</a></li>
 							</ul>
 						</div>
 					</div>

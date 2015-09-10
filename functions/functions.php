@@ -5,17 +5,20 @@ function actionView($action){
 	switch($action){
 	//vue home page
 	case 'accueil':{ return "views/HomeView.php";  } break;
+
+	//vue login page
+	case 'connexion':{ return "views/user/UserView.php";  } break;
 	}
 }
 
 //Fonction d'url
 function url($uc = "accueil", $action = "", $idu = ""){
 	if ($idu != ""){
-		return "http://localhost/$uc/$action/$idu";
+		return "http://localhost/packarddynaudio/$uc/$action/$idu";
 	}else if ($action != ""){
-		return "http://localhost/$uc/$action";
+		return "http://localhost/packarddynaudio/$uc/$action";
 	}else if ($action == ""){
-		return "http://localhost/$uc";
+		return "http://localhost/packarddynaudio/$uc";
 	}
 }
 
