@@ -1,12 +1,20 @@
 /* -- Header -- */
-
+header{
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	width : 100%;
+}
 .header-principale{
 	background-color: #fff;
 	margin: 0px;
+
 }
 .container-menu{
 	padding-top: 38px;
 	height: 100px;
+	-webkit-transition: height 0.5s, padding-top 0.5s; /* Safari */
+	transition: height 0.5s, padding-top 0.5s;
 }
 .menu{
 	font-family: 'Open Sans', sans-serif;
@@ -27,6 +35,52 @@
 	text-decoration: none;
 	color: #000;
 }
+
+header.fixed {
+	background-color: #fff;
+	margin: 0px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.3);
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	width : 100%;
+}
+
+header.fixed .container-menu{
+	padding-top: 15px;
+	height: 50px;
+}
+
+/*header.fixed .container-menu {*/
+	/*padding-top: 38px;*/
+	/*height: 100px;*/
+/*}*/
+
+
+/*header.fixed .menu {*/
+	/*font-family: 'Open Sans', sans-serif;*/
+	/*padding-left: 20px;*/
+/*}*/
+
+/*header.fixed .nav-connexion {*/
+	/*/!*float: right;*!/*/
+	/*text-align: right;*/
+/*}*/
+
+/*header.fixed .nav-connexion ul li a {*/
+	/*text-decoration: none;*/
+	/*color: #000;*/
+/*}*/
+
+/*header.fixed .nav-classique {*/
+	/*text-align: left;*/
+/*}*/
+
+/*header.fixed .nav-classique ul li a {*/
+	/*text-decoration: none;*/
+	/*color: #000;*/
+/*}*/
+
 
 /* -- Footer -- */
 

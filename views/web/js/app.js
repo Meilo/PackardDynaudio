@@ -1,31 +1,39 @@
 $(document).ready(function(){
 
 	$(window).load(function(){
-    var $container = $('.membre-filter-container');
-    $container.isotope({
-        filter: '*',
-        animationOptions: {
-            duration: 750,
-            easing: 'linear',
-            queue: false
-        }
-    });
- 
-    $('.membre-filter a').click(function(){
-        $('.membre-filter .current').removeClass('current');
-        $(this).addClass('current');
- 
-        var selector = $(this).attr('data-filter');
+        var $container = $('.membre-filter-container');
         $container.isotope({
-            filter: selector,
+            filter: '*',
             animationOptions: {
                 duration: 750,
                 easing: 'linear',
                 queue: false
             }
-         });
-         return false;
-    }); 
-	});
+        });
 
+        $('.membre-filter a').click(function(){
+            $('.membre-filter .current').removeClass('current');
+            $(this).addClass('current');
+
+            var selector = $(this).attr('data-filter');
+            $container.isotope({
+                filter: selector,
+                animationOptions: {
+                    duration: 750,
+                    easing: 'linear',
+                    queue: false
+                }
+             });
+             return false;
+        });
+
+        $(window).scroll(function () {
+            var rupture = $('header').outerHeight() ;
+            if( $(window).scrollTop() > rupture ) {
+                $('header').addClass('fixed');
+            } else {
+                $('header').removeClass('fixed');
+            }
+        });
+	});
 });
