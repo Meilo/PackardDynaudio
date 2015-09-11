@@ -23,7 +23,7 @@
 		<div class="col-md-5 bloc-ad">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Selectionnez vous même les acteurs de votre projet avec <b>Likho</b></h2>
+					<h2>Selectionnez vous même les acteurs de votre projet avec <font color="#5cb85c"><b>Likho</b></font></h2>
 				</div>
 			</div>
 		</div>
@@ -36,9 +36,9 @@
 			<div class="col-md-5">
 				<div class="membre-filter">
 					<a href="#" class="btn btn-default" data-filter="*" class="current">Tous</a>
-				  	<a href="#" class="btn btn-primary" data-filter=".dessinateur">Dessinateurs</a>
-				  	<a href="#" class="btn btn-danger" data-filter=".scenariste">Scénaristes</a>
-				  	<a href="#" class="btn btn-warning" data-filter=".editeur">Editeurs</a>
+				  	<a href="#" class="btn btn-success" data-filter=".dessinateur">Dessinateurs</a>
+				  	<a href="#" class="btn btn-success" data-filter=".scenariste">Scénaristes</a>
+				  	<a href="#" class="btn btn-success" data-filter=".editeur">Editeurs</a>
 				</div>
 			</div>
 		</div>
@@ -86,20 +86,20 @@
 		<div class="col-md-6 bloc-tuto">
 			<div class="row">
 				<div class="col-md-5 title-tuto">
-					<h2><b>Likho</b>, comment ça marche ?</h2>
+					<h2><font color="#5cb85c"><b>Likho</b></font>, comment ça marche ?</h2>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-12">
 					<div class="row mode-tuto">
 						<div class="col-md-12">
-							<h3>Remplir votre profil</h3>
+							<h3>Remplissez votre profil</h3>
 							<p><em>Minions ipsum pepete tulaliloo para tú tatata bala tu jiji po kass baboiii underweaaar potatoooo.</em></p>
 						</div>
 					</div>
 					<div class="row mode-tuto">
 						<div class="col-md-12">
-							<h3>Trouvez des personnes qui correspondent à vos attentes</h3>
+							<h3>Trouvez des profils qui correspondent à vos attentes</h3>
 							<p><em>Minions ipsum pepete tulaliloo para tú tatata bala tu jiji po kass baboiii underweaaar potatoooo.</em></p>
 						</div>
 					</div>

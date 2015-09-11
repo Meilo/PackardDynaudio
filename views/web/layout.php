@@ -25,7 +25,7 @@
 					<div class="row">
 						<div class="col-md-6 nav-classique">
 							<ul class="list-unstyled list-inline navig-1">
-								<li><b>Likho</b></li>
+								<li><a href="<?php echo url() ?>"><font color="#5cb85c"><b>Likho</b></font></a></li>
 								<li><a href="#">Actu BD</a></li>
 								<li><a href="#">Guide et Tutoriel</a></li>
 								<li><a href="#">Evenement</a></li>

@@ -16,8 +16,16 @@
 	/*float: right;*/
 	text-align: right;
 }
+.nav-connexion ul li a{
+	text-decoration: none;
+	color: #000;
+}
 .nav-classique{
 	text-align: left;
+}
+.nav-classique ul li a{
+	text-decoration: none;
+	color: #000;
 }
 
 /* -- Footer -- */
