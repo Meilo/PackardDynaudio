@@ -51,36 +51,6 @@ header.fixed .container-menu{
 	height: 50px;
 }
 
-/*header.fixed .container-menu {*/
-	/*padding-top: 38px;*/
-	/*height: 100px;*/
-/*}*/
-
-
-/*header.fixed .menu {*/
-	/*font-family: 'Open Sans', sans-serif;*/
-	/*padding-left: 20px;*/
-/*}*/
-
-/*header.fixed .nav-connexion {*/
-	/*/!*float: right;*!/*/
-	/*text-align: right;*/
-/*}*/
-
-/*header.fixed .nav-connexion ul li a {*/
-	/*text-decoration: none;*/
-	/*color: #000;*/
-/*}*/
-
-/*header.fixed .nav-classique {*/
-	/*text-align: left;*/
-/*}*/
-
-/*header.fixed .nav-classique ul li a {*/
-	/*text-decoration: none;*/
-	/*color: #000;*/
-/*}*/
-
 
 /* -- Footer -- */
 
@@ -243,6 +213,32 @@ header.fixed .container-menu{
 }
 
 .container-user{
-	height: 500px;
-
+	height: 700px;
+}
+.content-user{
+	margin-top: 210px;
+	text-align: center;
+	font-size: 30px;
+}
+.content-user h1{
+	padding-bottom: 35px;
+	font-family: 'Open Sans', sans-serif;
+}
+.content-user input{
+	margin-bottom: 15px;
+	height: 50px;
+	width: 300px;
+	display: inline-block;
+}
+.content-user button{
+	margin-bottom: 40px;
+}
+.content-user p{
+	font-size: 14px;
+	padding-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+.content-user a{
+	color: #000;
 }
